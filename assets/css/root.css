@@ -16,13 +16,16 @@
     padding-left: 15px;
     padding-right: 15px;
 }
-.ff_anybody{
+
+.ff_anybody {
     font-family: 'Anybody', cursive;
 }
-.ff_poppins{
+
+.ff_poppins {
     font-family: 'Poppins', sans-serif;
 }
-.ff_redhat{
+
+.ff_redhat {
     font-family: 'Red Hat Text', sans-serif;
 }
 
@@ -31,13 +34,13 @@
     --fs-xsm: 16px;
     --fs-sm: 18px;
     --fs-md: 20px;
-    --fs-lg: 22px;
-    --fs-xl: 25px;
-    --fs-2xl: 30px;
-    --fs-3xl: 45px;
-    --fs-4xl: 48px;
-    --fs-5xl: 80px;
-    --fs-6xl: 90px;
+    --fs-lg: 20px;
+    --fs-xl: 22px;
+    --fs-2xl: 24px;
+    --fs-3xl: 26px;
+    --fs-4xl: 28px;
+    --fs-5xl: 30px;
+    --fs-6xl: 32px;
 
 
 
@@ -98,25 +101,31 @@
 }
 
 /* font weight  */
-.fw_300{
+.fw_300 {
     font-weight: 300;
 }
-.fw_400{
+
+.fw_400 {
     font-weight: 400;
 }
-.fw_500{
+
+.fw_500 {
     font-weight: 500;
 }
-.ff_600{
+
+.ff_600 {
     font-weight: 600;
 }
-.fw_700{
+
+.fw_700 {
     font-weight: 700;
 }
-.fw_800{
+
+.fw_800 {
     font-weight: 800;
 }
-.fw_900{
+
+.fw_900 {
     font-weight: 900;
 }
 
@@ -155,4 +164,70 @@
 
 .color_light_green200 {
     color: var(--color-light_green200);
+}
+
+
+
+@media (min-width:576px) {
+    :root {
+        /* font sizes  */
+        --fs-xsm: 16px;
+        --fs-sm: 18px;
+        --fs-md: 20px;
+        --fs-lg: 22px;
+        --fs-xl: 24px;
+        --fs-2xl: 28px;
+        --fs-3xl: 30px;
+        --fs-4xl: 32px;
+        --fs-5xl: 38px;
+        --fs-6xl: 40px;
+    }
+
+}
+
+@media (min-width:768px) {
+    :root {
+        /* font sizes  */
+        --fs-xsm: 16px;
+        --fs-sm: 18px;
+        --fs-md: 20px;
+        --fs-lg: 22px;
+        --fs-xl: 25px;
+        --fs-2xl: 30px;
+        --fs-3xl: 35px;
+        --fs-4xl: 40px;
+        --fs-5xl: 45px;
+        --fs-6xl: 50px;
+    }
+
+}
+
+
+
+@media (min-width:992px) {
+    :root {
+        /* font sizes  */
+        --fs-xsm: 16px;
+        --fs-sm: 18px;
+        --fs-md: 20px;
+        --fs-lg: 22px;
+        --fs-xl: 25px;
+        --fs-2xl: 30px;
+        --fs-3xl: 45px;
+        --fs-4xl: 48px;
+        --fs-5xl: 80px;
+        --fs-6xl: 90px;
+
+        --color-light_green100: #E3F9E7;
+        --color-light_gray: #777E90;
+        --color-bg_green: #3CBD96;
+        --color-light_black: #312E43;
+        --color-gray: #5A5F6A;
+        --color-dark_green: #204945;
+        --color-light_white: #E2F5EF;
+        --color-black: #23262F;
+        --color-light_green200: #C1EADD;
+    }
+
+
 }
