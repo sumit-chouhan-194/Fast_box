@@ -11,6 +11,9 @@
 body{
     overflow-x: hidden;
 }
+html{
+    overflow-x: hidden;
+}
 .mycontainer {
     max-width: 1600px !important;
     margin-left: auto;
