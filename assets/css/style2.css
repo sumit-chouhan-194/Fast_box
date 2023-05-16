@@ -28,7 +28,7 @@
     min-height: 281px !important;
     display: flex;
     align-items: center;
-  
+
 }
 
 .cards h5 {
@@ -61,24 +61,9 @@
     color: var(--color-light_gray);
     padding-top: 16px;
     margin-bottom: 0;
-}  
-
-/*
-.cards div {
-    padding-left: 44px;
 }
 
-
-
-/* .slider1.slick-track {
-    display: flex !important;
+/* form section */
+.mw_492 {
+    max-width: 492px;
 }
-
-.slider1.slick-slide {
-    height: inherit !important;
-    display: flex !important;
-}
-
-.slider1.slick-slide>div {
-    display: flex;
-} */
