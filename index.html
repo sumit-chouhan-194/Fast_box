@@ -5,12 +5,115 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Fast box</title>
+    <!-- bootstrap  css  -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <!-- root css  -->
+    <link rel="stylesheet" href="./assets/css/root.css">
+    <!-- custom css  -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
 </head>
 
 <body>
-    
+    <header>
+        <nav class="mycontainer">
+            <div>
+                <div class="d-flex align-items-center position-relative z-3 justify-content-between">
+                    <div class="pt_29 pb_29">
+                        <a href="#"><img src="./assets/images/png/page_logo.png" alt="page logo"
+                                class="w-100 w_90_1200 w_75_576"></a>
+                    </div>
+                    <div id="showul"
+                        class="navbar d-flex align-content-center justify-content-between flex-lg-row flex-column lh_50">
+                        <ul
+                            class="d-flex justify-content-between flex-column flex-lg-row align-items-center pt_51 pb_51 m-0  pl_0">
+                            <li class="ff_redhat fw_400 pr_35 fs_md pr_17_xxl p_lg_0"><a href="#"
+                                    class="color_gray">Home</a></li>
+                            <li class="ff_redhat fw_400 pr_35 pl_35 pr_17_xxl pl_18_xxl fs_md p_lg_0"><a href="#"
+                                    class="color_gray">Tracking</a>
+                            </li>
+                            <li class="ff_redhat fw_400 pr_35 pl_36 pr_17_xxl pl_18_xxl fs_md p_lg_0"><a href="#"
+                                    class="color_gray">Shipping</a>
+                            </li>
+                            <li class="ff_redhat fw_400 pr_35 pl_36 pr_17_xxl pl_18_xxl fs_md p_lg_0"><a href="#"
+                                    class="color_gray">Locations</a>
+                            </li>
+                            <li class="ff_redhat fw_400  pl_36 pl_18_xxl fs_md p_lg_0"><a href="#"
+                                    class="color_gray">Support</a>
+                            </li>
+                        </ul>
+                        <div
+                            class="d-flex justify-content-between flex-column d-none d_block flex-lg-row align-items-center">
+                            <p class="ff_redhat fw_400 fs_md pt_51 pb_51 m-0 pr_38 p_lg_0 text-center"><a href="#"
+                                    class="color_gray ">Signin</a></p>
+                            <button
+                                class="ff_redhat fw_400 fs_md text-white bg_green border-0 br_10 pt_11 pb_10 pr_27 pl_27 mt_40 mb_40 ml_12_lg mt_20_lg mb_20_lg">Register</button>
+                        </div>
+
+                    </div>
+                    <div class="d-flex justify-content-between dis_none  align-items-center">
+                        <p class="ff_redhat fw_400 fs_md pt_51 pb_51 m-0 pr_38 pr_17_xxl pl_18_xxl"><a href="#"
+                                class="color_gray">Signin</a></p>
+                        <button
+                            class="ff_redhat fw_400 fs_md text-white bg_green border-0 br_10 pt_11 pb_10 pr_27 pl_27 mt_40 mb_40">Register</button>
+                    </div>
+                    <span class="menuicon d-none" id="shownav" onclick="shownav()">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </span>
+                </div>
+
+            </div>
+        </nav>
+        <div class="flex-grow-1 pt-5 pb-5">
+            <div class="mycontainer">
+                <div class="row pt-5 pb-5">
+                    <div class="col-8">
+                        <h1 class="ff_anybody fw_700 fs_6xl color_dark_green lh_110 m-0">Largest and reliable courier
+                            service</h1>
+                        <div class="corner_top_boxes position-relative">
+                            <h2
+                                class="ff_anybody fw_700 fs_5xl color_dark_green lh_80 pt_21 pb_34 pl_41 pr_22 bg_light_green100 mw_568 mt_43 border_in_your_city position-relative  corner_bottom_boxes">
+                                in your city</h2>
+                        </div>
+                        <div class="pt-5 pb-5 mw_700">
+                            <p class="pt_26 ff_redhat fw_400 fs_xl color_light_gray m-0 lh_40">Duis aute irure dolor in
+                                reprehenderit in voluptate cillum dolore eu fugiat nulla pariatur.</p>
+                        </div>
+                        <div class="pt_38 mw_661 w-100 d-flex ">
+                            <input type="text" placeholder="Enter Tracking Number"
+                                class="ff_redhat fw_400 fs_md color_light_gray pt_33 pb_32 pl_38 pr_38 br_input_10 border-0 outline_none bg_light_white w-100">
+                            <button
+                                class="ff_poppins fw_500 fs_2xl text-white bg_green border-0 br_10 pt_31 pb_30 pl_65 pr_64 m-0 w-100 mw_225">Check</button>
+                        </div>
+                    </div>
+                    <div class="col-4 d-none">
+                        <div>
+                            <img src="./assets/images/png/header_cycle.png" alt="header cycle" class="w-100">
+                        </div>
+                    </div>
+                    <div class="position-relative">
+                        <div class="position-absolute right_0 top_0">
+                            <img src="./assets/images/png/header_cycle.png" alt="header cycle" class="w-100">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+
+
+    <!-- nav bar js  -->
+    <script>
+        function shownav() {
+            document.getElementById("showul").classList.toggle("nav_left0")
+        }
+    </script>
+    <!-- bootstrap js  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
         crossorigin="anonymous"></script>
