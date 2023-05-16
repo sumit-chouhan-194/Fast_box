@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Text:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.mycontainer {
+    max-width: 1600px !important;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.ff_anybody{
+    font-family: 'Anybody', cursive;
+}
+.ff_poppins{
+    font-family: 'Poppins', sans-serif;
+}
+.ff_redhat{
+    font-family: 'Red Hat Text', sans-serif;
+}
+
+:root {
+    /* font sizes  */
+    --fs-xsm: 16px;
+    --fs-sm: 18px;
+    --fs-md: 20px;
+    --fs-lg: 22px;
+    --fs-xl: 25px;
+    --fs-2xl: 30px;
+    --fs-3xl: 45px;
+    --fs-4xl: 48px;
+    --fs-5xl: 80px;
+    --fs-6xl: 90px;
+
+
+
+    /* / COLOR */
+    --color-light_green100: #E3F9E7;
+    --color-light_gray: #777E90;
+    --color-bg_green: #3CBD96;
+    --color-light_black: #312E43;
+    --color-gray: #5A5F6A;
+    --color-dark_green: #204945;
+    --color-light_white: #E2F5EF;
+    --color-black: #23262F;
+    --color-light_green200: #C1EADD;
+
+
+
+}
+
+/* font size  */
+.fs_xsm {
+    font-size: var(--fs-xsm);
+}
+
+.fs_sm {
+    font-size: var(--fs-sm);
+}
+
+.fs_md {
+    font-size: var(--fs-md);
+}
+
+.fs_lg {
+    font-size: var(--fs-lg);
+}
+
+.fs_xl {
+    font-size: var(--fs-xl);
+}
+
+.fs_2xl {
+    font-size: var(--fs-2xl);
+}
+
+.fs_3xl {
+    font-size: var(--fs-3xl);
+}
+
+.fs_4xl {
+    font-size: var(--fs-4xl);
+}
+
+.fs_5xl {
+    font-size: var(--fs-5xl);
+}
+
+.fs_6xl {
+    font-size: var(--fs-6xl);
+}
+
+/* font weight  */
+.fw_300{
+    font-weight: 300;
+}
+.fw_400{
+    font-weight: 400;
+}
+.fw_500{
+    font-weight: 500;
+}
+.ff_600{
+    font-weight: 600;
+}
+.fw_700{
+    font-weight: 700;
+}
+.fw_800{
+    font-weight: 800;
+}
+.fw_900{
+    font-weight: 900;
+}
+
+/* colors  */
+.color-light_green100 {
+    color: var(--color-light_green100);
+}
+
+.color_light_gray {
+    color: var(--color-light_gray);
+}
+
+.bg_green {
+    background-color: var(--color-bg_green);
+}
+
+.color_light_black {
+    color: var(--color-light_black);
+}
+
+.color_gray {
+    color: var(--color-gray);
+}
+
+.color_dark_green {
+    color: var(--color-dark_green);
+}
+
+.color_light_white {
+    color: var(--color-light_white);
+}
+
+.color_black {
+    color: var(--color-black);
+}
+
+.color_light_green200 {
+    color: var(--color-light_green200);
+}
