@@ -8,7 +8,9 @@
     text-decoration: none !important;
     box-sizing: border-box !important;
 }
-
+body{
+    overflow-x: hidden;
+}
 .mycontainer {
     max-width: 1600px !important;
     margin-left: auto;

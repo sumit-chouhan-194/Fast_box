@@ -38,7 +38,8 @@
 .pb_51 {
     padding-bottom: 51px;
 }
-.pt_38{
+
+.pt_38 {
     padding-top: 38px;
 }
 
@@ -61,25 +62,32 @@
 .pb_10 {
     padding-bottom: 10px;
 }
-.pt_31{
+
+.pt_31 {
     padding-top: 31px;
 }
-.pb_30{
+
+.pb_30 {
     padding-bottom: 30px;
 }
-.pl_65{
+
+.pl_65 {
     padding-left: 65px;
 }
-.pr_64{
+
+.pr_64 {
     padding-right: 64px;
 }
-.pt_33{
+
+.pt_33 {
     padding-top: 33px;
 }
-.pb_32{
+
+.pb_32 {
     padding-bottom: 32px;
 }
-.pl_38{
+
+.pl_38 {
     padding-left: 38px;
 }
 
@@ -113,21 +121,30 @@
 .br_10 {
     border-radius: 10px;
 }
-.br_input_10{
+
+.br_input_10 {
     border-radius: 10px 0px 0px 10px;
 }
+
 /* width  */
 .mw_568 {
     max-width: 568PX;
 }
-.mw_700{
+
+.mw_700 {
     max-width: 700px;
 }
-.mw_661{
+
+.mw_661 {
     max-width: 661px;
 }
-.mw_225{
+
+.mw_225 {
     max-width: 225px;
+}
+
+.w_90 {
+    width: 95% !important;
 }
 
 /* line height  */
@@ -142,15 +159,26 @@
 .lh_80 {
     line-height: 80px;
 }
-.lh_40{
+
+.lh_40 {
     line-height: 40px;
 }
+
 /* top bottom left right  */
-.right_0{
-    right: -200px;
+.right_-220 {
+    right: -220px;
 }
-.top_0{
+
+.top_-120 {
     bottom: -120px;
+}
+
+.top_0 {
+    top: 0;
+}
+
+.right_0 {
+    right: 0;
 }
 
 /* menuicon  */
@@ -168,10 +196,12 @@
     background-color: black;
     z-index: 5;
 }
+
 /* outline  */
-.outline_none{
+.outline_none {
     outline: none;
 }
+
 /* before after  */
 .corner_top_boxes::after {
     content: "";
@@ -183,6 +213,7 @@
     top: -9px;
     left: 554px;
 }
+
 .corner_top_boxes::before {
     content: "";
     position: absolute;
@@ -194,6 +225,7 @@
     left: -8px;
     z-index: 2;
 }
+
 .corner_bottom_boxes::after {
     content: "";
     position: absolute;
@@ -201,7 +233,7 @@
     border: 3.5px solid #3CBD96;
     width: 22px;
     height: 22px;
-    bottom:-13px;
+    bottom: -13px;
     right: -13px;
 }
 
@@ -217,6 +249,16 @@
 }
 
 /* media screen  */
+@media (max-width:1450px) {
+    .right_-220 {
+        right: -470px;
+    }
+
+    .top_-120 {
+        bottom: -5px;
+    }
+}
+
 @media (max-width:1200px) {
     .pr_17_xxl {
         padding-right: 17px;
@@ -228,6 +270,19 @@
 
     .w_90_1200 {
         width: 90% !important;
+    }
+
+    .d_none_1200 {
+        display: none !important;
+    }
+    .pt_50_1200{
+        padding-top: 50px;
+    }
+}
+
+@media (max-width:1199.99px) {
+    .d_block_1200 {
+        display: block !important;
     }
 }
 
